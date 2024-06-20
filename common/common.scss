@@ -434,11 +434,19 @@ a span:first-of-type {
   width: 35vw;
 }
 
-@media screen  {
+@media screen and (max-width: 800px) {
+  .category-boxes {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 45% 45%;
+    border-radius: var(--mint-border-radius);
+  }
+}
+@media screen and (max-width: 500px) {
   .category-boxes {
     display: grid;
     grid-gap: 2em;
     grid-template-columns: 100%;
     border-radius: var(--mint-border-radius);
-}
+  }
 }

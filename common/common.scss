@@ -396,3 +396,38 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 a span:first-of-type {
   font-weight: bold;
 }
+
+  .stat-banner__wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.stat-banner__title {
+  text-align: center;
+  font-size: var(--font-up-2);
+  margin-bottom: 1.5em;
+  font-weight: 600;
+}
+.stat-banner__wrapper li>* {
+  align-items: center;
+  gap: 1.5em;
+  min-width: 0;
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.stat-banner__wrapper li {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #F4F6F5;
+  padding: 30px;
+  border-radius: 10px;
+}

@@ -346,7 +346,6 @@ a:hover {
     var(--tertiary-medium) 0%,
     var(--tertiary) 100%
   );
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,4 +432,13 @@ a span:first-of-type {
 .custom-search-banner-wrap .btn.search-icon:not(.has-search-button-text)+.search-menu-container .search-input {
   padding-left: 1.75em;
   width: 35vw;
+}
+
+@media screen  {
+  .category-boxes {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 100%;
+    border-radius: var(--mint-border-radius);
+}
 }

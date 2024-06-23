@@ -440,6 +440,9 @@ a span:first-of-type {
     grid-gap: 2em;
     grid-template-columns: 45% 45%;
     border-radius: var(--mint-border-radius);
+    .stat-banner__wrapper ul {
+      grid-template-columns: 100%;
+  }
   }
 }
 @media screen and (max-width: 500px) {
@@ -448,5 +451,8 @@ a span:first-of-type {
     grid-gap: 2em;
     grid-template-columns: 100%;
     border-radius: var(--mint-border-radius);
+    .stat-banner__wrapper ul {
+      grid-template-columns: 100%;
+  }
   }
 }

@@ -546,6 +546,16 @@ font-weight: bold !important;
 .num .views  .topic-list-data span{
 font-weight: bold;
 }
+.custom-search-banner-wrap .btn.search-icon:not(.has-search-button-text) {
+  z-index: 2;
+  background: rgba(0,0,0,0);
+  line-height: 1;
+  color: var(--primary-medium);
+  height: 100%;
+  padding-right: .25em;
+  position: absolute;
+  margin-top: 5px;
+}
 @media screen and (max-width: 500px) {
   .posts .sortable .num .topic-list-data span{
     margin-right: 10px;
@@ -569,6 +579,16 @@ font-weight: bold;
       font-size: 17px !important;
   
   }
+  .custom-search-banner-wrap .btn.search-icon:not(.has-search-button-text) {
+    z-index: 2;
+    background: rgba(0,0,0,0);
+    line-height: 1;
+    color: var(--primary-medium);
+    height: 100%;
+    padding-right: .25em;
+    position: absolute;
+    margin-top: 5px;
+}
   .posts .sortable .num .topic-list-data span:first-child{
     margin-right: 10px;
   }

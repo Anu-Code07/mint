@@ -518,6 +518,9 @@ span[data-format="tiny"]{
 .btn-link .posts-map .badge-posts {
   font-weight: 400;
 }
+.num .views  .topic-list-data span{
+font-weight: bold;
+}
 @media screen and (max-width: 800px) {
   .category-boxes {
     display: grid;
@@ -544,6 +547,9 @@ span[data-format="tiny"]{
     grid-template-columns: 100%;
     border-radius: var(--mint-border-radius);
  
+  }
+  .posts .sortable .num .topic-list-data span:first-child{
+    margin-right: 10px;
   }
   .stat-banner__wrapper ul {
     grid-template-columns: 100%;

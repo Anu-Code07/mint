@@ -477,7 +477,9 @@ a span:first-of-type {
   padding-left: 1.75em;
   width: 35vw;
 }
-
+span[data-format="tiny"]{
+  font-weight: 400;
+}
 @media screen and (max-width: 800px) {
   .category-boxes {
     display: grid;
@@ -513,5 +515,9 @@ a span:first-of-type {
 .pull-left img{
   height: 35px;
   width: 35px;
+}
+.topic-list .topic-list-data {
+  padding: 15px 0;
+  max-width: 300px;
 }
 }

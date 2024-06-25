@@ -541,6 +541,9 @@ font-weight: bold !important;
   font-weight: 400;
 }
 @media screen and (max-width: 500px) {
+  .age .activity a{
+    display: none;
+  }
   .category-boxes {
     display: grid;
     grid-gap: 2em;

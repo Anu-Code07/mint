@@ -125,6 +125,12 @@ a span:first-of-type {
 .num .views{
 font-weight: bold;
 }
+.search-menu {
+  margin-top: 20px;
+}
+.post-activity span.relative-date{
+font-weight: 400;
+}
 .btn-link .posts-map .badge-posts {
 font-weight: 400;
 }
@@ -149,6 +155,19 @@ a {
   color: var(--tertiary-hover);
 }
 
+.btn-link .posts-map .badge-posts  > span.number{
+  font-weight: 400;
+}
+.num .views  .topic-list-data > span.number{
+  font-weight: bold;
+}
+.topic-list .link-bottom-line {
+  font-size: var(--font-down-1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .5em;
+}
 .category-boxes {
   display: grid;
   grid-gap: 2em;

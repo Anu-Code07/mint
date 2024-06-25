@@ -540,6 +540,9 @@ font-weight: bold !important;
   padding: 15px 5px;
   font-weight: 400;
 }
+.btn .no-text .btn-icon .btn .search-icon {
+  margin-top: 5px;
+}
 @media screen and (max-width: 500px) {
   .posts .sortable .num .topic-list-data span{
     margin-right: 10px;

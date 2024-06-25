@@ -1,7 +1,11 @@
 @import "variables";
 @import "sidebar";
 @import "chat";
-
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .d-editor-textarea-wrapper,
 .select-kit-header {
   border-radius: var(--mint-border-radius);

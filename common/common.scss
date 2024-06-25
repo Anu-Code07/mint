@@ -541,7 +541,7 @@ font-weight: bold !important;
   font-weight: 400;
 }
 .btn .no-text .btn-icon .btn .search-icon {
-  margin-top: 5px;
+  margin-top: 5px !important;
 }
 .num .views  .topic-list-data span{
 font-weight: bold;
@@ -551,8 +551,8 @@ font-weight: bold;
     margin-right: 10px;
   }
   .btn .no-text .btn-icon .btn .search-icon {
-      font-size: 15px;
-      margin-top: 5px;
+      font-size: 15px !important;
+      margin-top: 5px !important;
   }
   .age .activity a{
     display: none;
@@ -565,8 +565,8 @@ font-weight: bold;
  
   }
   .btn .no-text .btn-icon .btn .search-icon{
-      margin-top: 5px;
-      font-size: 17px;
+      margin-top: 5px !important;
+      font-size: 17px !important;
   
   }
   .posts .sortable .num .topic-list-data span:first-child{

@@ -255,7 +255,9 @@ a span:first-of-type {
     }
   }
 }
-
+.name{
+  text-transform: capitalize;
+}
 .list-controls .combo-box .combo-box-header {
   border: none;
   border-radius: var(--mint-border-radius);

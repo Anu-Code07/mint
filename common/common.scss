@@ -492,8 +492,8 @@ a span:first-of-type {
 .search-menu{
   margin: 10px 0;
 }
-.topic-statuses a{
-  font-weight: bold;
+.topic-statuses > a{
+  font-weight: bold !important;
 }
 
 .stat-banner__wrapper li {

@@ -568,6 +568,19 @@ font-weight: bold;
   position: absolute;
   margin-top: 5px;
 }
+.custom-search-banner-wrap .results {
+  box-sizing: border-box;
+  background: var(--secondary);
+  box-shadow: 0 5px 10px rgba(0,0,0,.15);
+  position: absolute;
+  z-index: 9;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  top: 4.75em;
+  right: 0;
+  padding: .5em;
+}
 @media screen and (max-width: 500px) {
   .badge-category__name{
     width: 55px;

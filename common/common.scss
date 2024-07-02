@@ -569,6 +569,9 @@ font-weight: bold;
   margin-top: 5px;
 }
 @media screen and (max-width: 500px) {
+  .badge-category__name{
+    width: 55px;
+  }
   .posts .sortable .num .topic-list-data span{
     margin-right: 10px;
   }

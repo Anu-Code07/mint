@@ -423,6 +423,11 @@ a:hover {
 .custom-search-banner-wrap h1,
 .custom-search-banner-wrap p {
   color: var(--primary-very-low);
+  color: #242424;
+  text-transform: none;
+  font-style: normal;
+  line-height: 70px;
+  letter-spacing: 0.3px;
 }
 
 .btn[href] {

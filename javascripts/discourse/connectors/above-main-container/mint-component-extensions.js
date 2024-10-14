@@ -11,5 +11,5 @@ export default {
     }
   },
 };
-const a=document.getElementsByClassName("stat-banner__title")
+const a=document.querySelector(".stat-banner__title")
 console.log(a,"Text");

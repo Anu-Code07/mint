@@ -13,4 +13,3 @@ export default {
 };
 const a=document.querySelector(".stat-banner__title")
 console.log(a,"Text");
-a.append('<div>Name</div>')
